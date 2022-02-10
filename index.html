@@ -6,36 +6,26 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
-    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
     <title>sticky side bar </title>
 </head>
 <body>
-    <div class="main">
-
-        <div class="header">
-            <img src="images/one.jpg">
-            <img src="images/two.jpg" alt="landscape">
-
-        </div>
-        
-
-       
-            <div class="text" >
-                <div  style="padding-left: 400px; cursor: pointer;">
-    
-                    <button class="style_event_modal_toggle__26qnw">
-                        <img src="images/ic.png" alt="Grand Launch">
-                        
-                    </button>
-                </div>
-                <img src="images/bl.png">
-             </div>
-
-
-
-
-
-
+    <div class="bottomContainer">
+      <div class="topBanner">
+        <button type="button" name="min">min</button>
+      </div>
+      <div class="mainBody">
+        <img src="bl.jpeg" alt="">
+      </div>
     </div>
+
+    <script type="text/javascript">
+      $('button').click(function() {
+        // console.log("clicked")
+
+        $('.mainBody').slideToggle();
+      })
+    </script>
 </body>
 </html>
