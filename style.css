@@ -1,0 +1,56 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+img{
+    width: 100%;
+    height: 100%;
+
+}
+
+.text{
+  position:fixed;
+  width:450px;
+  height:400px;
+  bottom:0px;
+  right:40px;
+  background-color: black;
+  color:#FFF;
+  border-radius:30px;
+  /* text-align:center; */
+  font-size:30px;
+  box-shadow: 2px 2px 3px #999;
+  z-index:100;
+
+  animation: moveImg 5s linear infinite;
+}
+
+@keyframes moveImg {
+  0%, 100% {
+    bottom:0;
+  }
+  50% {
+    bottom: 200px;
+  }
+}
+
+
+
+
+
+
+
+
+.style_launch_banner_wrapper__3XE14 .style_event_modal_toggle__26qnw {
+    position: absolute;
+    width: 64px;
+    height: 64px;
+    right: 0.5rem;
+    top: 40px;
+    background-color: transparent;
+    transform: translateY(-75%) rotate(90);
+    border: none;
+    transition: all .3s ease-in-out;
+
+}
